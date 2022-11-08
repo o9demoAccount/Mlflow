@@ -132,7 +132,7 @@ def test_ingests_csv_successfully(
                 "ingest": {
                     "using": "csv",
                     "location": dataset_path,
-                    "loader_method": "steps.ingest.load_file_as_dataframe",
+                    "loader_method": "load_file_as_dataframe",
                 }
             },
         },
@@ -252,7 +252,7 @@ def test_ingest_throws_for_custom_dataset_when_loader_function_not_implemented_f
                     "ingest": {
                         "using": "fooformat",
                         "location": str(dataset_path),
-                        "loader_method": "steps.ingest.load_file_as_dataframe",
+                        "loader_method": "load_file_as_dataframe",
                     }
                 },
             },
@@ -352,7 +352,7 @@ def test_ingests_remote_http_datasets_successfully(tmp_path):
                 "ingest": {
                     "using": "csv",
                     "location": dataset_url,
-                    "loader_method": "steps.ingest.load_file_as_dataframe",
+                    "loader_method": "load_file_as_dataframe",
                 }
             },
         },
