@@ -26,8 +26,10 @@ steps:
     split_ratios: {{SPLIT_RATIOS|default([0.75, 0.125, 0.125])}}
     post_split_method: steps.split.process_splits
   transform:
+    using: custom
     transformer_method: steps.transform.transformer_fn
   train:
+    using: custom
     estimator_method: steps.train.estimator_fn
   evaluate:
     validation_criteria:
@@ -128,6 +130,7 @@ TRANSFORM_STEP = format_help_string(
 
 steps:
   transform:
+    using: custom
     transformer_method: steps.transform.transformer_fn
 """
 )
@@ -154,6 +157,7 @@ TRAIN_STEP = format_help_string(
 
 steps:
   train:
+    using: custom
     estimator_method: steps.train.estimator_fn
 
 metrics:
