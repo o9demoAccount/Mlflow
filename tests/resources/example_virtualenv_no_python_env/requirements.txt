@@ -1,3 +1,4 @@
 mlflow
 scikit-learn==1.0.2
 protobuf<4.0.0
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
