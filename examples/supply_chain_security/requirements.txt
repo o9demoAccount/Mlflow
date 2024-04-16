@@ -205,7 +205,7 @@ markupsafe==2.0.1 \
     # via
     #   jinja2
     #   mako
-mlflow==1.20.2 \
+mlflow==2.10.0 \
     --hash=sha256:963c22532e82a93450674ab97d62f9e528ed0906b580fadb7c003e696197557c \
     --hash=sha256:b15ff0c7e5e64f864a0b40c99b9a582227315eca2065d9f831db9aeb8f24637b
     # via -r requirements.in
@@ -485,7 +485,7 @@ sqlalchemy==1.4.27 \
     # via
     #   alembic
     #   mlflow
-sqlparse==0.4.2 \
+sqlparse==0.5.0 \
     --hash=sha256:0c00730c74263a94e5a9919ade150dfc3b19c574389985446148402998287dae \
     --hash=sha256:48719e356bb8b42991bdbb1e8b83223757b93789c00910a616a071910ca4a64d
     # via mlflow
