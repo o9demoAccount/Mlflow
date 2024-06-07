@@ -205,7 +205,7 @@ markupsafe==2.0.1 \
     # via
     #   jinja2
     #   mako
-mlflow==1.20.2 \
+mlflow==2.11.3 \
     --hash=sha256:963c22532e82a93450674ab97d62f9e528ed0906b580fadb7c003e696197557c \
     --hash=sha256:b15ff0c7e5e64f864a0b40c99b9a582227315eca2065d9f831db9aeb8f24637b
     # via -r requirements.in
@@ -373,7 +373,7 @@ requests==2.26.0 \
     #   databricks-cli
     #   docker
     #   mlflow
-scikit-learn==0.24.2 \
+scikit-learn==1.5.0 \
     --hash=sha256:038f4e9d6ef10e1f3fe82addc3a14735c299866eb10f2c77c090410904828312 \
     --hash=sha256:06ffdcaaf81e2a3b1b50c3ac6842cfb13df2d8b737d61f64643ed61da7389cde \
     --hash=sha256:0e71ce9c7cbc20f6f8b860107ce15114da26e8675238b4b82b7e7cd37ca0c087 \
