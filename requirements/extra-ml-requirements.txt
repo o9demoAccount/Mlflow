@@ -27,7 +27,7 @@ statsmodels
 # Required by mlflow.h2o
 h2o
 # Required by mlflow.onnx
-onnx>=1.11.0
+onnx>=1.16.2
 onnxruntime
 tf2onnx
 # Required by mlflow.spark
