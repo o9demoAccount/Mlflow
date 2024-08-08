@@ -13,7 +13,7 @@ spacy>=3.3.0
 # Required by mlflow.tensorflow
 tensorflow>=2.8.0
 # Required by mlflow.pytorch
-torch>=1.11.0
+torch>=2.2.0
 torchvision>=0.12.0
 pytorch_lightning>=1.5.10
 # Required by mlflow.xgboost
@@ -27,7 +27,7 @@ statsmodels
 # Required by mlflow.h2o
 h2o
 # Required by mlflow.onnx
-onnx>=1.11.0
+onnx>=1.16.2
 onnxruntime
 tf2onnx
 # Required by mlflow.spark
@@ -46,3 +46,11 @@ prophet
 pmdarima
 # Required by mlflow.diviner
 diviner
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+sympy>=1.12 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
