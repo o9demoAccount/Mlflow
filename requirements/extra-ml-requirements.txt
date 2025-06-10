@@ -13,7 +13,7 @@ spacy>=3.3.0
 # Required by mlflow.tensorflow
 tensorflow>=2.8.0
 # Required by mlflow.pytorch
-torch>=1.11.0
+torch>=2.7.1
 torchvision>=0.12.0
 pytorch_lightning>=1.5.10
 # Required by mlflow.xgboost
@@ -46,3 +46,5 @@ prophet
 pmdarima
 # Required by mlflow.diviner
 diviner
+h11>=0.16.0 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.4 # not directly required, pinned by Snyk to avoid a vulnerability
