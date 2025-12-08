@@ -3,3 +3,5 @@ cloudpickle==1.6.0
 psutil==5.9.0
 scikit-learn==1.1.2
 typing-extensions==4.1.1
+sqlparse>=0.5.4 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
