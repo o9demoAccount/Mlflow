@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM python:3.14.2
 
 RUN pip install mlflow>=1.0 \
     && pip install azure-storage-blob==12.3.0 \
